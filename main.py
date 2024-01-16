@@ -7,7 +7,7 @@ from PIL import Image
 
 # Here we specify the data that we are going to store inside the QR code image.
 #TODO: Can't save data img to qr code
-image_path = "./data/img.jpg"
+image_path = ""
 image = Image.open(image_path)
 
 image_bytes = image.tobytes()
